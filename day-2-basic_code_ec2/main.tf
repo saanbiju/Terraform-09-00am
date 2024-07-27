@@ -4,6 +4,6 @@ resource "aws_instance" "dev" {
     key_name = var.key_name
     associate_public_ip_address = true
     tags = {
-      Name = "dev_ec2"
+      Name = "dev4_ec2"
     }
 }
